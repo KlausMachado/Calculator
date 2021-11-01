@@ -18,6 +18,7 @@ body {
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 15px black;
+  font-family: cursive;
 }
 
 .display {
@@ -33,12 +34,14 @@ body {
   font: normal 4rem serif;
   overflow: hidden;
   border-radius: 5px;
+  font-family: cursive;
 }
 
 .calculator-buttons {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
+  font-family: cursive;
 }
 
 .calculator button {
@@ -51,6 +54,7 @@ body {
   outline: none;
   cursor: pointer;
   border: 2px solid black;
+  font-family: cursive;
 }
 
 button:hover {
